@@ -1,0 +1,6 @@
+,auc,cv_best_score,best_params,beats_baseline
+xgboost,0.5791366906474821,0.6119061668258554,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 100}",False
+random_forest,0.5752628666297731,0.5987231885655471,"{'model__max_depth': 3, 'model__n_estimators': 200}",False
+lightgbm,0.542612064194798,0.6144689623317545,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 200}",False
+logistic_regression,0.5271167681239624,0.555457281613022,{'model__C': 0.01},False
+gradient_boosting,0.5019369120088545,0.6267871468534363,"{'model__n_estimators': 200, 'model__max_depth': 2, 'model__learning_rate': 0.1}",False

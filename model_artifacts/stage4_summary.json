@@ -1,0 +1,19 @@
+{
+  "best_model": "xgboost",
+  "test_auc": 0.5791366906474821,
+  "baseline_auc": 0.598,
+  "default_threshold_backtest": {
+    "threshold": 0.5,
+    "n_signals": 98,
+    "precision": 0.16326530612244897,
+    "recall": 0.6153846153846154,
+    "total_savings_per_dollar": -170.02999999999935
+  },
+  "recommended_threshold": 0.7,
+  "recommended_threshold_backtest": {
+    "n_signals": 20,
+    "precision": 0.4,
+    "recall": 0.3076923076923077,
+    "total_savings_per_dollar": 88.7800000000004
+  }
+}
